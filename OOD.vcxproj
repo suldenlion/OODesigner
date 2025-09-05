@@ -1,0 +1,712 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{3C3C00A8-909D-4AC4-BE36-D888F054BF9D}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\OOD.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\OOD.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <RedirectOutputAndErrors>NUL</RedirectOutputAndErrors>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\OOD.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\OOD.exe</OutputFile>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\OOD.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\OOD.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <RedirectOutputAndErrors>NUL</RedirectOutputAndErrors>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\OOD.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\OOD.exe</OutputFile>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ActivationBar.cpp" />
+    <ClCompile Include="ActivationBarList.cpp" />
+    <ClCompile Include="ActivationBarPopup.cpp" />
+    <ClCompile Include="Activity.cpp" />
+    <ClCompile Include="ActivityMainPopup.cpp" />
+    <ClCompile Include="ActivityText.cpp" />
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="ActorNameText.cpp" />
+    <ClCompile Include="Aggregation.cpp" />
+    <ClCompile Include="AggregationPopup.cpp" />
+    <ClCompile Include="Anchor.cpp" />
+    <ClCompile Include="AnchorList.cpp" />
+    <ClCompile Include="AnytionInfoTuple.cpp" />
+    <ClCompile Include="ArgumentInfo.cpp" />
+    <ClCompile Include="ArgumentList.cpp" />
+    <ClCompile Include="Association.cpp" />
+    <ClCompile Include="AssociationPopup.cpp" />
+    <ClCompile Include="BaseClassInitDlg.cpp" />
+    <ClCompile Include="BeginActivity.cpp" />
+    <ClCompile Include="Box.cpp" />
+    <ClCompile Include="Bucket.cpp" />
+    <ClCompile Include="CActivityFrm.cpp" />
+    <ClCompile Include="CActivityView.cpp" />
+    <ClCompile Include="CaptureDlg.cpp" />
+    <ClCompile Include="CChildFrm.cpp" />
+    <ClCompile Include="CChooseDirDlg.cpp" />
+    <ClCompile Include="CClassDeleteDlg.cpp" />
+    <ClCompile Include="CClassFrm.cpp" />
+    <ClCompile Include="CClassMigrationDlg.cpp" />
+    <ClCompile Include="CClassView.cpp" />
+    <ClCompile Include="CCollaborationFrm.cpp" />
+    <ClCompile Include="CCollaborationView.cpp" />
+    <ClCompile Include="CDeploymentFrm.cpp" />
+    <ClCompile Include="CDeploymentView.cpp" />
+    <ClCompile Include="CInPlaceFrame.cpp" />
+    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="CITList.cpp" />
+    <ClCompile Include="ClassContent.cpp" />
+    <ClCompile Include="ClassDocumentDlg.cpp" />
+    <ClCompile Include="ClassFigureLibrary.cpp" />
+    <ClCompile Include="ClassLibrary.cpp" />
+    <ClCompile Include="ClassMainPopup.cpp" />
+    <ClCompile Include="ClassMemberListView.cpp" />
+    <ClCompile Include="ClassOthersOption.cpp" />
+    <ClCompile Include="ClassPropDlg.cpp" />
+    <ClCompile Include="ClassTemplate.cpp" />
+    <ClCompile Include="ClassTemplatePopup.cpp" />
+    <ClCompile Include="ClassText.cpp" />
+    <ClCompile Include="ClassTextLine.cpp" />
+    <ClCompile Include="ClassTreeView.cpp" />
+    <ClCompile Include="CMainFrame.cpp" />
+    <ClCompile Include="CNewDlg.cpp" />
+    <ClCompile Include="CNewWSDlg.cpp" />
+    <ClCompile Include="CObjectFrm.cpp" />
+    <ClCompile Include="CObjectView.cpp" />
+    <ClCompile Include="CodeGenerator.cpp" />
+    <ClCompile Include="CollaborationMainPopup.cpp" />
+    <ClCompile Include="CollaborationMultiObject.cpp" />
+    <ClCompile Include="CollaborationObject.cpp" />
+    <ClCompile Include="CollaborationObjectMessageText.cpp" />
+    <ClCompile Include="CollaborationObjectPopup.cpp" />
+    <ClCompile Include="CommentDlg.cpp" />
+    <ClCompile Include="Communication.cpp" />
+    <ClCompile Include="ComponentTemplate.cpp" />
+    <ClCompile Include="ComponentText.cpp" />
+    <ClCompile Include="Connection.cpp" />
+    <ClCompile Include="ConnectionInfoTuple.cpp" />
+    <ClCompile Include="ConnectionList.cpp" />
+    <ClCompile Include="ConnectionPopup.cpp" />
+    <ClCompile Include="ConnectionText.cpp" />
+    <ClCompile Include="COODClassDoc.cpp" />
+    <ClCompile Include="COODCntrlItem.cpp" />
+    <ClCompile Include="COODCntrlItemList.cpp" />
+    <ClCompile Include="COODCommonDoc.cpp" />
+    <ClCompile Include="COODCommonFrm.cpp" />
+    <ClCompile Include="COODCommonView.cpp" />
+    <ClCompile Include="COODDoc.cpp" />
+    <ClCompile Include="COODSrvrItem.cpp" />
+    <ClCompile Include="COODView.cpp" />
+    <ClCompile Include="CPPClassPropGeneral.cpp" />
+    <ClCompile Include="CPPCodeGenerator.cpp" />
+    <ClCompile Include="CPPCommonCodeGenerator.cpp" />
+    <ClCompile Include="CPPMethodPropGeneral.cpp" />
+    <ClCompile Include="CPPVarPropGeneral.cpp" />
+    <ClCompile Include="CProjectOptionsCodeGen.cpp" />
+    <ClCompile Include="CProjectOptionsDlg.cpp" />
+    <ClCompile Include="CProjectOptionsGeneral.cpp" />
+    <ClCompile Include="CProjectOptionsMacros.cpp" />
+    <ClCompile Include="CProjectOptionsReverse.cpp" />
+    <ClCompile Include="CResizableControlBar.cpp" />
+    <ClCompile Include="CResizableDockBar.cpp" />
+    <ClCompile Include="CResizableDockContext.cpp" />
+    <ClCompile Include="CResizableDockState.cpp" />
+    <ClCompile Include="CResizableEditDoc.cpp" />
+    <ClCompile Include="CResizableEditView.cpp" />
+    <ClCompile Include="CResizableEditViewBar.cpp" />
+    <ClCompile Include="CResizableFloatWnd.cpp" />
+    <ClCompile Include="CResizableMDIFrameWnd.cpp" />
+    <ClCompile Include="CResizableMiniDockFrameWnd.cpp" />
+    <ClCompile Include="CResizableRectTracker.cpp" />
+    <ClCompile Include="CResizableTreeBar.cpp" />
+    <ClCompile Include="CResizeEditViewBarDocTemp.cpp" />
+    <ClCompile Include="CSelectDlg.cpp" />
+    <ClCompile Include="CSequenceFrm.cpp" />
+    <ClCompile Include="CSequenceView.cpp" />
+    <ClCompile Include="CSharpClassPropGeneral.cpp" />
+    <ClCompile Include="CSharpCodeGenerator.cpp" />
+    <ClCompile Include="CSharpMethodPropGeneral.cpp" />
+    <ClCompile Include="CSharpVarPropGeneral.cpp" />
+    <ClCompile Include="CSplitterRect.cpp" />
+    <ClCompile Include="CStateFrm.cpp" />
+    <ClCompile Include="CStateView.cpp" />
+    <ClCompile Include="CTextDoc.cpp" />
+    <ClCompile Include="CTextFrm.cpp" />
+    <ClCompile Include="CTextView.cpp" />
+    <ClCompile Include="CUseCaseFrm.cpp" />
+    <ClCompile Include="CUseCaseView.cpp" />
+    <ClCompile Include="CustomToolBar.cpp" />
+    <ClCompile Include="CWndSpaceElt.cpp" />
+    <ClCompile Include="DataMembersOption.cpp" />
+    <ClCompile Include="Dependency.cpp" />
+    <ClCompile Include="DependencyPopup.cpp" />
+    <ClCompile Include="DeploymentMainPopup.cpp" />
+    <ClCompile Include="Diamond.cpp" />
+    <ClCompile Include="EditableFigure.cpp" />
+    <ClCompile Include="EditPopup.cpp" />
+    <ClCompile Include="EndActivity.cpp" />
+    <ClCompile Include="Etc.cpp" />
+    <ClCompile Include="EventText.cpp" />
+    <ClCompile Include="ExcludeRect.cpp" />
+    <ClCompile Include="ExcludeRectList.cpp" />
+    <ClCompile Include="Figure.cpp" />
+    <ClCompile Include="FigureLibrary.cpp" />
+    <ClCompile Include="FigureList.cpp" />
+    <ClCompile Include="FinalState.cpp" />
+    <ClCompile Include="FixedNamesTable.cpp" />
+    <ClCompile Include="FontInfo.cpp" />
+    <ClCompile Include="Generalization.cpp" />
+    <ClCompile Include="GeneralizationPopup.cpp" />
+    <ClCompile Include="HardwareNode.cpp" />
+    <ClCompile Include="HWConnection.cpp" />
+    <ClCompile Include="HWConnectionText.cpp" />
+    <ClCompile Include="InitialState.cpp" />
+    <ClCompile Include="InterfacePort.cpp" />
+    <ClCompile Include="InterfacePortList.cpp" />
+    <ClCompile Include="InterfacePortPopup.cpp" />
+    <ClCompile Include="InterfacePortText.cpp" />
+    <ClCompile Include="JavaClassPropGeneral.cpp" />
+    <ClCompile Include="JavaCodeGenerator.cpp" />
+    <ClCompile Include="JavaMethodPropGeneral.cpp" />
+    <ClCompile Include="JavaVarPropGeneral.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="LineList.cpp" />
+    <ClCompile Include="LineNode.cpp" />
+    <ClCompile Include="LineNodeList.cpp" />
+    <ClCompile Include="LinePopup.cpp" />
+    <ClCompile Include="Lines.cpp" />
+    <ClCompile Include="List.cpp" />
+    <ClCompile Include="ListNode.cpp" />
+    <ClCompile Include="MemberFunctionsOption.cpp" />
+    <ClCompile Include="MemberOptionDlg.cpp" />
+    <ClCompile Include="MemberPropDlg.cpp" />
+    <ClCompile Include="MessageFlow.cpp" />
+    <ClCompile Include="MessageFlowPopup.cpp" />
+    <ClCompile Include="MessageText.cpp" />
+    <ClCompile Include="MessageTextPopup.cpp" />
+    <ClCompile Include="MethodBodyDlg.cpp" />
+    <ClCompile Include="NodeFigure.cpp" />
+    <ClCompile Include="NodeFigureList.cpp" />
+    <ClCompile Include="Note.cpp" />
+    <ClCompile Include="NoteBoundary.cpp" />
+    <ClCompile Include="NoteText.cpp" />
+    <ClCompile Include="ObjectPositionDlg.cpp" />
+    <ClCompile Include="ObjectText.cpp" />
+    <ClCompile Include="OneLineText.cpp" />
+    <ClCompile Include="OOD.cpp" />
+    <ClCompile Include="PackageCommentDlg.cpp" />
+    <ClCompile Include="PackageLibrary.cpp" />
+    <ClCompile Include="PackagePopup.cpp" />
+    <ClCompile Include="PackagePropDlg.cpp" />
+    <ClCompile Include="PackagePropGeneral.cpp" />
+    <ClCompile Include="PackageTemplate.cpp" />
+    <ClCompile Include="PackageText.cpp" />
+    <ClCompile Include="Popup.cpp" />
+    <ClCompile Include="PropCommonDlg.cpp" />
+    <ClCompile Include="QualificationText.cpp" />
+    <ClCompile Include="QueryTextDlg.cpp" />
+    <ClCompile Include="RelationshipInfoTuple.cpp" />
+    <ClCompile Include="RelationshipInfoTupleList.cpp" />
+    <ClCompile Include="RelationTraverseDlg.cpp" />
+    <ClCompile Include="RelationTraverseFrame.cpp" />
+    <ClCompile Include="ResizeGlobalData.cpp" />
+    <ClCompile Include="RoundBoxA.cpp" />
+    <ClCompile Include="RoundBoxB.cpp" />
+    <ClCompile Include="ScreenCaptureDlg.cpp" />
+    <ClCompile Include="SequenceAsyncMessage.cpp" />
+    <ClCompile Include="SequenceLanePopup.cpp" />
+    <ClCompile Include="SequenceMainPopup.cpp" />
+    <ClCompile Include="SequenceMessageText.cpp" />
+    <ClCompile Include="SequenceObject.cpp" />
+    <ClCompile Include="SequenceObjectPopup.cpp" />
+    <ClCompile Include="SequenceReturnMessage.cpp" />
+    <ClCompile Include="SequenceSelfDelegation.cpp" />
+    <ClCompile Include="SequenceSyncMessage.cpp" />
+    <ClCompile Include="SimpleConnection.cpp" />
+    <ClCompile Include="SlaveryText.cpp" />
+    <ClCompile Include="SlaveryTextList.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="StateMainPopup.cpp" />
+    <ClCompile Include="StatePopup.cpp" />
+    <ClCompile Include="StateText.cpp" />
+    <ClCompile Include="StaticConnectionText.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="SyncConditionText.cpp" />
+    <ClCompile Include="SynchronizationBar.cpp" />
+    <ClCompile Include="SynchronizationPopup.cpp" />
+    <ClCompile Include="SystemBoundary.cpp" />
+    <ClCompile Include="TabDlgWithName.cpp" />
+    <ClCompile Include="TemplateClassTag.cpp" />
+    <ClCompile Include="TemplateClassTagText.cpp" />
+    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="TextContent.cpp" />
+    <ClCompile Include="TextLine.cpp" />
+    <ClCompile Include="TipBoard.cpp" />
+    <ClCompile Include="TipDialog.cpp" />
+    <ClCompile Include="Transition.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="Trigger.cpp" />
+    <ClCompile Include="TriggerText.cpp" />
+    <ClCompile Include="TupleText.cpp" />
+    <ClCompile Include="TwoPointFigure.cpp" />
+    <ClCompile Include="UnsignedLong.cpp" />
+    <ClCompile Include="UseCase.cpp" />
+    <ClCompile Include="UseCaseExtendsLink.cpp" />
+    <ClCompile Include="UseCaseLink.cpp" />
+    <ClCompile Include="UseCaseMainPopup.cpp" />
+    <ClCompile Include="UseCaseText.cpp" />
+    <ClCompile Include="UseCaseUsesLink.cpp" />
+    <ClCompile Include="VCPPClassPropGeneral.cpp" />
+    <ClCompile Include="VCPPClassPropMaps.cpp" />
+    <ClCompile Include="VCPPCodeGenerator.cpp" />
+    <ClCompile Include="VCPPMapEditor.cpp" />
+    <ClCompile Include="VCPPMethodPropGeneral.cpp" />
+    <ClCompile Include="VCPPVarPropGeneral.cpp" />
+    <ClCompile Include="VTerm.cpp" />
+    <ClCompile Include="WidePackage.cpp" />
+    <ClCompile Include="WideState.cpp" />
+    <ClCompile Include="WideStateDlg.cpp" />
+    <ClCompile Include="XCoord.cpp" />
+    <ClCompile Include="YCoord.cpp" />
+    <ClCompile Include="ZoomComboBox.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OOD.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActivationBar.h" />
+    <ClInclude Include="ActivationBarList.h" />
+    <ClInclude Include="ActivationBarPopup.h" />
+    <ClInclude Include="Activity.h" />
+    <ClInclude Include="ActivityMainPopup.h" />
+    <ClInclude Include="ActivityText.h" />
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="ActorNameText.h" />
+    <ClInclude Include="AfxDeleteExceptionMacro.h" />
+    <ClInclude Include="Aggregation.h" />
+    <ClInclude Include="AggregationPopup.h" />
+    <ClInclude Include="Anchor.h" />
+    <ClInclude Include="AnchorList.h" />
+    <ClInclude Include="AnytionInfoTuple.h" />
+    <ClInclude Include="ArgumentInfo.h" />
+    <ClInclude Include="ArgumentList.h" />
+    <ClInclude Include="Association.h" />
+    <ClInclude Include="AssociationPopup.h" />
+    <ClInclude Include="BaseClassInitDlg.h" />
+    <ClInclude Include="BeginActivity.h" />
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="Bucket.h" />
+    <ClInclude Include="builtInClasses.h" />
+    <ClInclude Include="CActivityFrm.h" />
+    <ClInclude Include="CActivityView.h" />
+    <ClInclude Include="CaptureDlg.h" />
+    <ClInclude Include="CChildFrm.h" />
+    <ClInclude Include="CChooseDirDlg.h" />
+    <ClInclude Include="CClassDeleteDlg.h" />
+    <ClInclude Include="CClassFrm.h" />
+    <ClInclude Include="CClassMigrationDlg.h" />
+    <ClInclude Include="CClassView.h" />
+    <ClInclude Include="CCollaborationFrm.h" />
+    <ClInclude Include="CCollaborationView.h" />
+    <ClInclude Include="CDeploymentFrm.h" />
+    <ClInclude Include="CDeploymentView.h" />
+    <ClInclude Include="CInPlaceFrame.h" />
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="CITList.h" />
+    <ClInclude Include="ClassContent.h" />
+    <ClInclude Include="ClassDocumentDlg.h" />
+    <ClInclude Include="Classes.h" />
+    <ClInclude Include="ClassFigureLibrary.h" />
+    <ClInclude Include="ClassLibrary.h" />
+    <ClInclude Include="ClassMainPopup.h" />
+    <ClInclude Include="ClassMemberListView.h" />
+    <ClInclude Include="ClassOthersOption.h" />
+    <ClInclude Include="ClassPropDlg.h" />
+    <ClInclude Include="ClassTemplate.h" />
+    <ClInclude Include="ClassTemplatePopup.h" />
+    <ClInclude Include="ClassText.h" />
+    <ClInclude Include="ClassTextLine.h" />
+    <ClInclude Include="ClassTreeView.h" />
+    <ClInclude Include="CMainFrame.h" />
+    <ClInclude Include="CNewDlg.h" />
+    <ClInclude Include="CNewWSDlg.h" />
+    <ClInclude Include="CObjectFrm.h" />
+    <ClInclude Include="CObjectView.h" />
+    <ClInclude Include="CodeGenerator.h" />
+    <ClInclude Include="CodeGenerators.h" />
+    <ClInclude Include="CollaborationMainPopup.h" />
+    <ClInclude Include="CollaborationMultiObject.h" />
+    <ClInclude Include="CollaborationObject.h" />
+    <ClInclude Include="CollaborationObjectMessageText.h" />
+    <ClInclude Include="CollaborationObjectPopup.h" />
+    <ClInclude Include="CommentDlg.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="Communication.h" />
+    <ClInclude Include="ComponentTemplate.h" />
+    <ClInclude Include="ComponentText.h" />
+    <ClInclude Include="Connection.h" />
+    <ClInclude Include="ConnectionInfoTuple.h" />
+    <ClInclude Include="ConnectionList.h" />
+    <ClInclude Include="ConnectionPopup.h" />
+    <ClInclude Include="ConnectionText.h" />
+    <ClInclude Include="COODClassDoc.h" />
+    <ClInclude Include="COODCntrlItem.h" />
+    <ClInclude Include="COODCntrlItemList.h" />
+    <ClInclude Include="COODCommonDoc.h" />
+    <ClInclude Include="COODCommonFrm.h" />
+    <ClInclude Include="COODCommonView.h" />
+    <ClInclude Include="COODDoc.h" />
+    <ClInclude Include="COODSrvrItem.h" />
+    <ClInclude Include="COODView.h" />
+    <ClInclude Include="CPPClassPropGeneral.h" />
+    <ClInclude Include="CPPCodeGenerator.h" />
+    <ClInclude Include="CPPCommonCodeGenerator.h" />
+    <ClInclude Include="CPPMethodPropGeneral.h" />
+    <ClInclude Include="CPPVarPropGeneral.h" />
+    <ClInclude Include="CProjectOptionsCodeGen.h" />
+    <ClInclude Include="CProjectOptionsDlg.h" />
+    <ClInclude Include="CProjectOptionsGeneral.h" />
+    <ClInclude Include="CProjectOptionsMacros.h" />
+    <ClInclude Include="CProjectOptionsReverse.h" />
+    <ClInclude Include="CResizableControlBar.h" />
+    <ClInclude Include="CResizableDockBar.h" />
+    <ClInclude Include="CResizableDockContext.h" />
+    <ClInclude Include="CResizableDockState.h" />
+    <ClInclude Include="CResizableEditDoc.h" />
+    <ClInclude Include="CResizableEditView.h" />
+    <ClInclude Include="CResizableEditViewBar.h" />
+    <ClInclude Include="CResizableFloatWnd.h" />
+    <ClInclude Include="CResizableMDIFrameWnd.h" />
+    <ClInclude Include="CResizableMiniDockFrameWnd.h" />
+    <ClInclude Include="CResizableRectTracker.h" />
+    <ClInclude Include="CResizableTreeBar.h" />
+    <ClInclude Include="CResizeEditViewBarDocTemp.h" />
+    <ClInclude Include="CSelectDlg.h" />
+    <ClInclude Include="CSequenceFrm.h" />
+    <ClInclude Include="CSequenceView.h" />
+    <ClInclude Include="CSharpClassPropGeneral.h" />
+    <ClInclude Include="CSharpCodeGenerator.h" />
+    <ClInclude Include="CSharpMethodPropGeneral.h" />
+    <ClInclude Include="CSharpVarPropGeneral.h" />
+    <ClInclude Include="CSplitterRect.h" />
+    <ClInclude Include="CStateDoc.h" />
+    <ClInclude Include="CStateFrm.h" />
+    <ClInclude Include="CStateView.h" />
+    <ClInclude Include="CTextDoc.h" />
+    <ClInclude Include="CTextFrm.h" />
+    <ClInclude Include="CTextView.h" />
+    <ClInclude Include="CUseCaseDoc.h" />
+    <ClInclude Include="CUseCaseFrm.h" />
+    <ClInclude Include="CUseCaseView.h" />
+    <ClInclude Include="CustomToolBar.h" />
+    <ClInclude Include="CWndSpaceElt.h" />
+    <ClInclude Include="DataMembersOption.h" />
+    <ClInclude Include="Dependency.h" />
+    <ClInclude Include="DependencyPopup.h" />
+    <ClInclude Include="DeploymentMainPopup.h" />
+    <ClInclude Include="Diamond.h" />
+    <ClInclude Include="Documents.h" />
+    <ClInclude Include="EditableFigure.h" />
+    <ClInclude Include="EditPopup.h" />
+    <ClInclude Include="EndActivity.h" />
+    <ClInclude Include="EventText.h" />
+    <ClInclude Include="ExcludeRect.h" />
+    <ClInclude Include="ExcludeRectList.h" />
+    <ClInclude Include="Figure.h" />
+    <ClInclude Include="FigureLibrary.h" />
+    <ClInclude Include="FigureList.h" />
+    <ClInclude Include="Figures.h" />
+    <ClInclude Include="figutil.h" />
+    <ClInclude Include="FinalState.h" />
+    <ClInclude Include="FixedNamesTable.h" />
+    <ClInclude Include="FontInfo.h" />
+    <ClInclude Include="Frames.h" />
+    <ClInclude Include="Generalization.h" />
+    <ClInclude Include="GeneralizationPopup.h" />
+    <ClInclude Include="HardwareNode.h" />
+    <ClInclude Include="HWConnection.h" />
+    <ClInclude Include="HWConnectionText.h" />
+    <ClInclude Include="InitialState.h" />
+    <ClInclude Include="InterfacePort.h" />
+    <ClInclude Include="InterfacePortList.h" />
+    <ClInclude Include="InterfacePortPopup.h" />
+    <ClInclude Include="InterfacePortText.h" />
+    <ClInclude Include="JavaClassPropGeneral.h" />
+    <ClInclude Include="JavaCodeGenerator.h" />
+    <ClInclude Include="JavaMethodPropGeneral.h" />
+    <ClInclude Include="JavaVarPropGeneral.h" />
+    <ClInclude Include="KtgMacro.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="LineList.h" />
+    <ClInclude Include="LineNode.h" />
+    <ClInclude Include="LineNodeList.h" />
+    <ClInclude Include="LinePopup.h" />
+    <ClInclude Include="Lines.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="ListNode.h" />
+    <ClInclude Include="macro_def.h" />
+    <ClInclude Include="MemberFunctionsOption.h" />
+    <ClInclude Include="MemberOptionDlg.h" />
+    <ClInclude Include="MemberPropDlg.h" />
+    <ClInclude Include="MessageFlow.h" />
+    <ClInclude Include="MessageFlowPopup.h" />
+    <ClInclude Include="MessageText.h" />
+    <ClInclude Include="MessageTextPopup.h" />
+    <ClInclude Include="MethodBodyDlg.h" />
+    <ClInclude Include="NodeFigure.h" />
+    <ClInclude Include="NodeFigureList.h" />
+    <ClInclude Include="Note.h" />
+    <ClInclude Include="NoteBoundary.h" />
+    <ClInclude Include="NoteText.h" />
+    <ClInclude Include="ObjectPositionDlg.h" />
+    <ClInclude Include="ObjectText.h" />
+    <ClInclude Include="OneLineText.h" />
+    <ClInclude Include="OOD.h" />
+    <ClInclude Include="PackageCommentDlg.h" />
+    <ClInclude Include="PackageLibrary.h" />
+    <ClInclude Include="PackagePopup.h" />
+    <ClInclude Include="PackagePropDlg.h" />
+    <ClInclude Include="PackagePropGeneral.h" />
+    <ClInclude Include="PackageTemplate.h" />
+    <ClInclude Include="PackageText.h" />
+    <ClInclude Include="Popup.h" />
+    <ClInclude Include="Popups.h" />
+    <ClInclude Include="PropCommonDlg.h" />
+    <ClInclude Include="QualificationText.h" />
+    <ClInclude Include="QueryTextDlg.h" />
+    <ClInclude Include="RelationshipInfoTuple.h" />
+    <ClInclude Include="RelationshipInfoTupleList.h" />
+    <ClInclude Include="RelationTraverseDlg.h" />
+    <ClInclude Include="RelationTraverseFrame.h" />
+    <ClInclude Include="ResizeGlobalData.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RoundBoxA.h" />
+    <ClInclude Include="RoundBoxB.h" />
+    <ClInclude Include="ScreenCaptureDlg.h" />
+    <ClInclude Include="SequenceAsyncMessage.h" />
+    <ClInclude Include="SequenceLanePopup.h" />
+    <ClInclude Include="SequenceMainPopup.h" />
+    <ClInclude Include="SequenceMessageText.h" />
+    <ClInclude Include="SequenceObject.h" />
+    <ClInclude Include="SequenceObjectPopup.h" />
+    <ClInclude Include="SequenceReturnMessage.h" />
+    <ClInclude Include="SequenceSelfDelegation.h" />
+    <ClInclude Include="SequenceSyncMessage.h" />
+    <ClInclude Include="SimpleConnection.h" />
+    <ClInclude Include="SlaveryText.h" />
+    <ClInclude Include="SlaveryTextList.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="StateMainPopup.h" />
+    <ClInclude Include="StatePopup.h" />
+    <ClInclude Include="StateText.h" />
+    <ClInclude Include="StaticConnectionText.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="SyncConditionText.h" />
+    <ClInclude Include="SynchronizationBar.h" />
+    <ClInclude Include="SynchronizationPopup.h" />
+    <ClInclude Include="SystemBoundary.h" />
+    <ClInclude Include="TabDlgWithName.h" />
+    <ClInclude Include="TemplateClassTag.h" />
+    <ClInclude Include="TemplateClassTagText.h" />
+    <ClInclude Include="Text.h" />
+    <ClInclude Include="TextContent.h" />
+    <ClInclude Include="TextLine.h" />
+    <ClInclude Include="TipBoard.h" />
+    <ClInclude Include="TipDialog.h" />
+    <ClInclude Include="TipString.h" />
+    <ClInclude Include="Transition.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="Trigger.h" />
+    <ClInclude Include="TriggerText.h" />
+    <ClInclude Include="TupleText.h" />
+    <ClInclude Include="TwoPointFigure.h" />
+    <ClInclude Include="UnsignedLong.h" />
+    <ClInclude Include="UseCase.h" />
+    <ClInclude Include="UseCaseExtendsLink.h" />
+    <ClInclude Include="UseCaseLink.h" />
+    <ClInclude Include="UseCaseMainPopup.h" />
+    <ClInclude Include="UseCaseText.h" />
+    <ClInclude Include="UseCaseUsesLink.h" />
+    <ClInclude Include="VCPPClassPropGeneral.h" />
+    <ClInclude Include="VCPPClassPropMaps.h" />
+    <ClInclude Include="VCPPCodeGenerator.h" />
+    <ClInclude Include="VCPPMapEditor.h" />
+    <ClInclude Include="VCPPMethodPropGeneral.h" />
+    <ClInclude Include="VCPPVarPropGeneral.h" />
+    <ClInclude Include="Views.h" />
+    <ClInclude Include="VTerm.h" />
+    <ClInclude Include="WidePackage.h" />
+    <ClInclude Include="WideState.h" />
+    <ClInclude Include="WideStateDlg.h" />
+    <ClInclude Include="XCoord.h" />
+    <ClInclude Include="YCoord.h" />
+    <ClInclude Include="ZoomComboBox.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap3.bmp" />
+    <Image Include="res\COODDoc.ico" />
+    <Image Include="res\directory.bmp" />
+    <Image Include="res\idr_acti.ico" />
+    <Image Include="res\idr_clas.ico" />
+    <Image Include="res\idr_comm.ico" />
+    <Image Include="res\idr_depl.ico" />
+    <Image Include="res\idr_inte.ico" />
+    <Image Include="res\idr_obje.ico" />
+    <Image Include="res\idr_sequ.ico" />
+    <Image Include="res\idr_stat.ico" />
+    <Image Include="res\idr_text.ico" />
+    <Image Include="res\idr_usec.ico" />
+    <Image Include="res\OOD.ico" />
+    <Image Include="res\ood_srvr.bmp" />
+    <Image Include="res\tb_activ.bmp" />
+    <Image Include="res\tb_class.bmp" />
+    <Image Include="res\tb_colla.bmp" />
+    <Image Include="res\tb_custo.bmp" />
+    <Image Include="res\tb_deplo.bmp" />
+    <Image Include="res\tb_seque.bmp" />
+    <Image Include="res\tb_state.bmp" />
+    <Image Include="res\tb_useca.bmp" />
+    <Image Include="res\tip.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\treebar_image.bmp" />
+    <Image Include="res\ws_classview.bmp" />
+    <Image Include="res\ws_diagramview.bmp" />
+    <Image Include="res\ws_fileview.bmp" />
+    <Image Include="res\ws_infoview.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\OOD.rc2" />
+    <CustomBuild Include="OOD.reg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="OOD.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

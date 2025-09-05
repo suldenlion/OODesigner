@@ -1,0 +1,1681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{80b7957a-a2c4-42d3-89e6-18360ce3c96f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6d690fa5-491b-4147-80e8-42b0b2be2475}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{44cb00ee-0f2a-4855-ab92-2b8bb0928cd2}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ActivationBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActivationBarList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActivationBarPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Activity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActivityMainPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActivityText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorNameText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Aggregation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AggregationPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Anchor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnchorList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnytionInfoTuple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArgumentInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArgumentList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Association.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssociationPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseClassInitDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginActivity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bucket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CActivityFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CActivityView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptureDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CChildFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CChooseDirDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CClassDeleteDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CClassFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CClassMigrationDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CClassView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollaborationFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollaborationView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDeploymentFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDeploymentView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CInPlaceFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CITList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassContent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassDocumentDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassFigureLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassMainPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassMemberListView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassOthersOption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassPropDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassTemplate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassTemplatePopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassTextLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassTreeView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CNewDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CNewWSDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjectFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjectView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CodeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollaborationMainPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollaborationMultiObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollaborationObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollaborationObjectMessageText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollaborationObjectPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommentDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Communication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentTemplate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionInfoTuple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COODClassDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COODCntrlItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COODCntrlItemList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COODCommonDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COODCommonFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COODCommonView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COODDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COODSrvrItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COODView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPPClassPropGeneral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPPCodeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPPCommonCodeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPPMethodPropGeneral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPPVarPropGeneral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CProjectOptionsCodeGen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CProjectOptionsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CProjectOptionsGeneral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CProjectOptionsMacros.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CProjectOptionsReverse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CResizableControlBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CResizableDockBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CResizableDockContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CResizableDockState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CResizableEditDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CResizableEditView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CResizableEditViewBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CResizableFloatWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CResizableMDIFrameWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CResizableMiniDockFrameWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CResizableRectTracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CResizableTreeBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CResizeEditViewBarDocTemp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSelectDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSequenceFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSequenceView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSharpClassPropGeneral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSharpCodeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSharpMethodPropGeneral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSharpVarPropGeneral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSplitterRect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CStateFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CStateView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CUseCaseFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CUseCaseView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomToolBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CWndSpaceElt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataMembersOption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependency.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DependencyPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeploymentMainPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Diamond.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditableFigure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EndActivity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Etc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcludeRect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcludeRectList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Figure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FigureLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FigureList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FinalState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedNamesTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FontInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Generalization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralizationPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HardwareNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HWConnection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HWConnectionText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InitialState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfacePort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfacePortList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfacePortPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfacePortText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JavaClassPropGeneral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JavaCodeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JavaMethodPropGeneral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JavaVarPropGeneral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LineList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LineNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LineNodeList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LinePopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ListNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemberFunctionsOption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemberOptionDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemberPropDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageFlow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageFlowPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageTextPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MethodBodyDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeFigure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeFigureList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Note.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteBoundary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPositionDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OneLineText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OOD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PackageCommentDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PackageLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PackagePopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PackagePropDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PackagePropGeneral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PackageTemplate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PackageText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Popup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropCommonDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QualificationText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryTextDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RelationshipInfoTuple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RelationshipInfoTupleList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RelationTraverseDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RelationTraverseFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResizeGlobalData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RoundBoxA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RoundBoxB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenCaptureDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceAsyncMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceLanePopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceMainPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceMessageText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceObjectPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceReturnMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceSelfDelegation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceSyncMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleConnection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SlaveryText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SlaveryTextList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMainPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatePopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticConnectionText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SyncConditionText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SynchronizationBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SynchronizationPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemBoundary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TabDlgWithName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateClassTag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateClassTagText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextContent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TipBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TipDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TupleText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoPointFigure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnsignedLong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UseCase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UseCaseExtendsLink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UseCaseLink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UseCaseMainPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UseCaseText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UseCaseUsesLink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VCPPClassPropGeneral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VCPPClassPropMaps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VCPPCodeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VCPPMapEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VCPPMethodPropGeneral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VCPPVarPropGeneral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VTerm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WidePackage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WideState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WideStateDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XCoord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="YCoord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoomComboBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OOD.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActivationBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivationBarList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivationBarPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Activity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivityMainPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivityText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorNameText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AfxDeleteExceptionMacro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Aggregation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AggregationPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Anchor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnchorList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnytionInfoTuple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArgumentInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArgumentList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Association.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssociationPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClassInitDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BeginActivity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bucket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="builtInClasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CActivityFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CActivityView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CaptureDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CChildFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CChooseDirDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CClassDeleteDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CClassFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CClassMigrationDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CClassView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollaborationFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollaborationView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDeploymentFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDeploymentView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CInPlaceFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CITList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassContent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassDocumentDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFigureLibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassLibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassMainPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassMemberListView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassOthersOption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassPropDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassTemplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassTemplatePopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassTextLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassTreeView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CNewDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CNewWSDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeGenerators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollaborationMainPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollaborationMultiObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollaborationObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollaborationObjectMessageText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollaborationObjectPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommentDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Communication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentTemplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionInfoTuple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COODClassDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COODCntrlItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COODCntrlItemList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COODCommonDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COODCommonFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COODCommonView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COODDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COODSrvrItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COODView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPPClassPropGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPPCodeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPPCommonCodeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPPMethodPropGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPPVarPropGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CProjectOptionsCodeGen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CProjectOptionsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CProjectOptionsGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CProjectOptionsMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CProjectOptionsReverse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CResizableControlBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CResizableDockBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CResizableDockContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CResizableDockState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CResizableEditDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CResizableEditView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CResizableEditViewBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CResizableFloatWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CResizableMDIFrameWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CResizableMiniDockFrameWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CResizableRectTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CResizableTreeBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CResizeEditViewBarDocTemp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSelectDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSequenceFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSequenceView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSharpClassPropGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSharpCodeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSharpMethodPropGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSharpVarPropGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSplitterRect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CStateDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CStateFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CStateView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CUseCaseDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CUseCaseFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CUseCaseView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomToolBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CWndSpaceElt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataMembersOption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DependencyPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeploymentMainPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Diamond.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Documents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditableFigure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EditPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EndActivity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcludeRect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcludeRectList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Figure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FigureLibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FigureList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Figures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="figutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FinalState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedNamesTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FontInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Frames.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Generalization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralizationPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HardwareNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HWConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HWConnectionText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InitialState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfacePort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfacePortList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfacePortPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfacePortText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JavaClassPropGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JavaCodeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JavaMethodPropGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JavaVarPropGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KtgMacro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LineList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LineNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LineNodeList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinePopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="macro_def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemberFunctionsOption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemberOptionDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemberPropDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageFlow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageFlowPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageTextPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodBodyDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeFigure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeFigureList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Note.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NoteBoundary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NoteText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPositionDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OneLineText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OOD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PackageCommentDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PackageLibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PackagePopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PackagePropDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PackagePropGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PackageTemplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PackageText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Popup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Popups.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropCommonDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QualificationText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryTextDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RelationshipInfoTuple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RelationshipInfoTupleList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RelationTraverseDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RelationTraverseFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResizeGlobalData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundBoxA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundBoxB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenCaptureDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceAsyncMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceLanePopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceMainPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceMessageText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceObjectPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceReturnMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceSelfDelegation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceSyncMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SlaveryText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SlaveryTextList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMainPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatePopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StateText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticConnectionText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SyncConditionText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SynchronizationBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SynchronizationPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemBoundary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TabDlgWithName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateClassTag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateClassTagText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextContent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TipBoard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TipDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TipString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TupleText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoPointFigure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnsignedLong.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UseCase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UseCaseExtendsLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UseCaseLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UseCaseMainPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UseCaseText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UseCaseUsesLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VCPPClassPropGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VCPPClassPropMaps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VCPPCodeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VCPPMapEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VCPPMethodPropGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VCPPVarPropGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Views.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VTerm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WidePackage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WideState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WideStateDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XCoord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="YCoord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoomComboBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\COODDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\directory.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_acti.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_clas.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_comm.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_depl.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_inte.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_obje.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_sequ.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_stat.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_text.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\idr_usec.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\OOD.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ood_srvr.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tb_activ.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tb_class.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tb_colla.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tb_custo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tb_deplo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tb_seque.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tb_state.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tb_useca.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\tip.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\treebar_image.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ws_classview.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ws_diagramview.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ws_fileview.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ws_infoview.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\OOD.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OOD.reg" />
+  </ItemGroup>
+</Project>
